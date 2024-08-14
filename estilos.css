@@ -2,3 +2,6 @@
     white-space: pre-wrap;
     border: 1px dotted grey;
 }
+body {
+    background-color: rgb(231, 231, 231);
+}
