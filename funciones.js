@@ -39,6 +39,7 @@ function copiar() {
     var text = document.getElementById("resultado").innerHTML;
     var text2 = text.replaceAll("<br>", "\n");
     navigator.clipboard.writeText(text2);
+    alert("Parte copiado al portapapeles.")
 
 
 
