@@ -23,7 +23,7 @@ function gen() {
     var resultado = document.getElementById("resultado").value;
     
     
-    document.getElementById("resultado").innerHTML = "• Falla(descripcion de falla): " + nombre + "<br/>" + "<br/>"; 
+    document.getElementById("resultado").innerHTML = "• Falla (descripcion de falla): " + nombre + "<br/>" + "<br/>"; 
     document.getElementById("resultado").innerHTML +="• Fecha falla: " + fecha1 + "<br/>" + "<br/>";
     document.getElementById("resultado").innerHTML +="• Fecha notificacion de falla: " + fecha2 + "<br/>" + "<br/>"; 
     document.getElementById("resultado").innerHTML +="• Hora notificacion de falla: " + hora1 + "<br/>" + "<br/>"; 
@@ -31,8 +31,8 @@ function gen() {
     document.getElementById("resultado").innerHTML += "• Atentido por parte ENYSE: " + comu + "<br/>" + "<br/>"; 
     document.getElementById("resultado").innerHTML +="• Hora de salida equipo mtto a terreno: " + terreno + "<br/>" + "<br/>";
     document.getElementById("resultado").innerHTML +="• Hora de comienzo trabajos: " + hora2 + "<br/>" + "<br/>"; 
-    document.getElementById("resultado").innerHTML += "• Hora de paro de labores(en caso de ocurrir): " + hora3 + "<br/>" + "<br/>"; 
-    document.getElementById("resultado").innerHTML += "• Hora inicio labores(en caso de haber ido a otra falla y despues haber regresado): " + hora4 + "<br/>" + "<br/>";
+    document.getElementById("resultado").innerHTML += "• Hora de paro de labores (en caso de ocurrir): " + hora3 + "<br/>" + "<br/>"; 
+    document.getElementById("resultado").innerHTML += "• Hora inicio labores (en caso de haber ido a otra falla y despues haber regresado): " + hora4 + "<br/>" + "<br/>";
     document.getElementById("resultado").innerHTML += "• Motivo del paro de labores: " + motivo + "<br/>" + "<br/>";
     document.getElementById("resultado").innerHTML +="• Hora de prueba con controlador de trafico: " + trafico1 + "<br/>" + "<br/>";
     document.getElementById("resultado").innerHTML +="• Hora normalización falla (fin trabajos): " + hora5 + "<br/>" + "<br/>"; 
